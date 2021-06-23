@@ -1,0 +1,28 @@
+{
+  "name": "templating-localStorage-module-10",
+  "version": "1.0.0",
+  "description": "- WebStorage API и JSON - Введение в шаблонизацию   - [Пакет для Parcel](https://www.npmjs.com/package/parcel-plugin-handlebars-precompile) - Билд в production   - root link   - [Public url](https://parceljs.org/cli.html#set-the-public-url-to-serve-on)   - [Структура папок для Parcel](https://github.com/parcel-bundler/parcel/issues/233#issuecomment-599081474)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/*.html",  
+    "build": "parcel build src/*.html --public-url /templating-localStorage-module-10/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liana13555/templating-localStorage-module-10.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liana13555/templating-localStorage-module-10/issues"
+  },
+  "homepage": "https://github.com/liana13555/templating-localStorage-module-10#readme",
+  "dependencies": {
+    "lodash.throttle": "^4.1.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2"
+  }
+}
